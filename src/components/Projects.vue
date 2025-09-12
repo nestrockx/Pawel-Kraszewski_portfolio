@@ -10,11 +10,7 @@ const changeDestination = (newDestination: string) => {
 </script>
 
 <template>
-  <div
-    v-motion-fade
-    :duration="700"
-    class="flex min-h-screen flex-col sm:flex-row"
-  >
+  <div v-motion-fade :duration="700" class="flex flex-col sm:flex-row">
     <div
       class="mx-[calc(10%)] my-10 flex flex-1 flex-col justify-center text-white"
     >

@@ -35,11 +35,7 @@ const onOpen = (idx: number) => {
 </script>
 
 <template>
-  <div
-    v-motion-fade
-    :duration="700"
-    class="flex min-h-screen items-center justify-center"
-  >
+  <div v-motion-fade :duration="700" class="flex items-center justify-center">
     <div
       class="my-[calc(5%)] ms-[calc(10%)] me-[calc(5%)] flex-1 space-y-8 text-2xl text-white"
     >

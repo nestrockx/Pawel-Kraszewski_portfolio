@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div v-motion-fade :duration="700" class="flex min-h-screen flex-col">
+  <div v-motion-fade :duration="700" class="flex flex-col">
     <div class="my-[5%] ms-[10%] me-[5%] flex-1">
       <h1 class="mb-8 text-4xl font-extrabold text-amber-400">Experience</h1>
 
