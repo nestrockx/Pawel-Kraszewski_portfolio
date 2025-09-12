@@ -5,7 +5,7 @@ const items = ref([
   {
     title: 'Simple Planning Poker',
     tag: 'React + Tailwind + Vite',
-    desc: 'Website for scrum and agile teams. Real-time voting on user stories, web sockets, nice animations.',
+    desc: 'Website for scrum and agile teams. Real-time team voting on user stories. Easy sprint planning.',
     url: 'https://simple-planning-poker.onrender.com/',
   },
   {
