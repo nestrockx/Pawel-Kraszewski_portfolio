@@ -5,6 +5,7 @@ import ProjectsComponent from '../components/Projects.vue'
 import TechnologiesComponent from '../components/Technologies.vue'
 import OtherProjects from '../components/OtherProjects.vue'
 import Experience from '../components/Experience.vue'
+import Footer from '../components/Footer.vue'
 
 const isOpen = ref(false)
 
@@ -57,6 +58,7 @@ const scrollToTechnologies = () => {
     <section ref="experienceRef">
       <Experience />
     </section>
+    <Footer />
   </div>
 
   <nav class="fixed top-1.5 left-15">
