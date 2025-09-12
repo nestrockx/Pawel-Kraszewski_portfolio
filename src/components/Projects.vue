@@ -18,9 +18,12 @@ const changeDestination = (newDestination: string) => {
     <div
       class="mx-[calc(10%)] my-10 flex flex-1 flex-col justify-center text-white"
     >
-      <h2 v-show="destination == 'home'" class="py-10 text-4xl">
-        Click the app on the phone for short demo
+      <h2 v-show="destination == 'home'" class="py-10 text-4xl font-bold">
+        My mobile apps
       </h2>
+      <p v-show="destination == 'home'" class="text-2xl">
+        Click the app for a short demo
+      </p>
 
       <h2 v-show="destination.match('signaly.*')" class="py-10 text-4xl">
         Signaly Chinese
@@ -111,7 +114,7 @@ const changeDestination = (newDestination: string) => {
       </div>
     </div>
     <div class="my-10 flex flex-col items-end justify-center text-white">
-      <div class="relative h-[800px] w-[400px]">
+      <div class="relative mx-[calc(8%)] h-[800px] w-[400px]">
         <Phone class="absolute w-100" />
 
         <transition

@@ -3,25 +3,60 @@ import { ref } from 'vue'
 import HomeComponent from '../components/Home.vue'
 import ProjectsComponent from '../components/Projects.vue'
 import TechnologiesComponent from '../components/Technologies.vue'
+import OtherProjects from '../components/OtherProjects.vue'
+import Experience from '../components/Experience.vue'
 
 const isOpen = ref(false)
 
 const toggleMenu = () => {
   isOpen.value = !isOpen.value
 }
+
+const experienceRef = ref<HTMLElement | null>(null)
+const projectsRef = ref<HTMLElement | null>(null)
+const homeRef = ref<HTMLElement | null>(null)
+const technologiesRef = ref<HTMLElement | null>(null)
+
+const scrollToExperience = () => {
+  if (experienceRef.value) {
+    experienceRef.value.scrollIntoView({ behavior: 'smooth' })
+  }
+}
+
+const scrollToProjects = () => {
+  if (projectsRef.value) {
+    projectsRef.value.scrollIntoView({ behavior: 'smooth' })
+  }
+}
+
+const scrollToHome = () => {
+  if (homeRef.value) {
+    homeRef.value.scrollIntoView({ behavior: 'smooth' })
+  }
+}
+
+const scrollToTechnologies = () => {
+  if (technologiesRef.value) {
+    technologiesRef.value.scrollIntoView({ behavior: 'smooth' })
+  }
+}
 </script>
 
 <template>
   <div class="flex flex-col overflow-y-auto bg-zinc-900">
-    <HomeComponent />
-    <TechnologiesComponent />
-    <ProjectsComponent />
-
-    <!-- Third flex section -->
-    <div class="mb-4 flex bg-red-500 p-4 text-white">
-      <div class="flex-1">Child 1</div>
-      <div class="flex-1">Child 2</div>
-    </div>
+    <section ref="homeRef">
+      <HomeComponent />
+    </section>
+    <section ref="technologiesRef">
+      <TechnologiesComponent />
+    </section>
+    <section ref="projectsRef">
+      <ProjectsComponent />
+      <OtherProjects />
+    </section>
+    <section ref="experienceRef">
+      <Experience />
+    </section>
   </div>
 
   <nav class="fixed top-1.5 left-15">
@@ -32,16 +67,40 @@ const toggleMenu = () => {
         isOpen && 'translate-0',
       ]"
     >
-      <button @click="" class="flex-1 cursor-pointer px-6 hover:text-amber-400">
+      <button
+        @click="scrollToHome"
+        :class="[
+          'flex-1 cursor-pointer px-6 hover:text-amber-400',
+          !isOpen && 'pointer-events-none',
+        ]"
+      >
         Home
       </button>
-      <button @click="" class="flex-1 cursor-pointer px-6 hover:text-amber-400">
+      <button
+        @click="scrollToTechnologies"
+        :class="[
+          'flex-1 cursor-pointer px-6 hover:text-amber-400',
+          !isOpen && 'pointer-events-none',
+        ]"
+      >
         Technologies
       </button>
-      <button @click="" class="flex-1 cursor-pointer px-6 hover:text-amber-400">
+      <button
+        @click="scrollToProjects"
+        :class="[
+          'flex-1 cursor-pointer px-6 hover:text-amber-400',
+          !isOpen && 'pointer-events-none',
+        ]"
+      >
         Projects
       </button>
-      <button @click="" class="flex-1 cursor-pointer px-6 hover:text-amber-400">
+      <button
+        @click="scrollToExperience"
+        :class="[
+          'flex-1 cursor-pointer px-6 hover:text-amber-400',
+          !isOpen && 'pointer-events-none',
+        ]"
+      >
         Experience
       </button>
     </div>
