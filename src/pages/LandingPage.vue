@@ -70,33 +70,28 @@ const scrollToTechnologies = () => {
       ]"
     >
       <button
+        v-if="isOpen"
         @click="scrollToHome"
-        :class="[
-          'flex-1 cursor-pointer px-6 hover:text-amber-400',
-          !isOpen && 'pointer-events-none',
-        ]"
+        :class="['flex-1 cursor-pointer px-6 hover:text-amber-400']"
       >
         Home
       </button>
       <button
+        v-if="isOpen"
         @click="scrollToTechnologies"
-        :class="[
-          'flex-1 cursor-pointer px-6 hover:text-amber-400',
-          !isOpen && 'pointer-events-none',
-        ]"
+        :class="['flex-1 cursor-pointer px-6 hover:text-amber-400']"
       >
         Technologies
       </button>
       <button
+        v-if="isOpen"
         @click="scrollToProjects"
-        :class="[
-          'flex-1 cursor-pointer px-6 hover:text-amber-400',
-          !isOpen && 'pointer-events-none',
-        ]"
+        :class="['flex-1 cursor-pointer px-6 hover:text-amber-400']"
       >
         Projects
       </button>
       <button
+        v-if="isOpen"
         @click="scrollToExperience"
         :class="[
           'flex-1 cursor-pointer px-6 hover:text-amber-400',
