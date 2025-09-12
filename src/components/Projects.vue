@@ -114,7 +114,7 @@ const changeDestination = (newDestination: string) => {
       </div>
     </div>
     <div class="my-10 flex flex-col items-end justify-center text-white">
-      <div class="relative mx-[calc(8%)] h-[800px] w-[400px]">
+      <div class="relative mx-0 h-[800px] w-[400px] sm:mx-[calc(8%)]">
         <Phone class="absolute w-100" />
 
         <transition
