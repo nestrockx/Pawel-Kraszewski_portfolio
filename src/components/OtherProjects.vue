@@ -63,7 +63,7 @@ const onOpen = (idx: number) => {
                 {{ item.title }}
               </h3>
               <span
-                class="ml-2 rounded-full bg-white/6 px-2 py-1 text-xs text-amber-200"
+                class="ml-2 rounded-full bg-white/6 px-2 py-1 text-center text-xs text-amber-200"
                 >{{ item.tag }}</span
               >
             </div>
