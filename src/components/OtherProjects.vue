@@ -21,7 +21,7 @@ const items = ref([
     url: 'https://marketplace.visualstudio.com/items?itemName=Wegielek.highlight-extension',
   },
   {
-    title: 'My Portoflio website',
+    title: 'My Portfolio website',
     tag: 'Vue 3 + Tawilwind + Vite',
     desc: 'A personal portfolio website.',
     url: 'https://github.com/nestrockx/pawelkraszewski_portfolio',
