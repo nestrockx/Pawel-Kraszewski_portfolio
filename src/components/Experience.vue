@@ -2,7 +2,7 @@
 
 <template>
   <div v-motion-fade :duration="700" class="flex flex-col">
-    <div class="my-[5%] ms-[10%] me-[5%] flex-1">
+    <div class="my-[5%] ms-[calc(5%)] me-[5%] flex-1 sm:ms-[10%]">
       <h1 class="mb-8 text-4xl font-extrabold text-amber-400">Experience</h1>
 
       <div

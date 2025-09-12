@@ -7,7 +7,7 @@ import Technology from './Technology.vue'
     <div class="flex w-full flex-col">
       <div class="flex flex-col sm:flex-row">
         <div
-          class="my-10 ms-[calc(10%)] me-[calc(5%)] flex flex-1 flex-col text-white"
+          class="my-10 ms-[calc(5%)] me-[calc(5%)] flex flex-1 flex-col text-white sm:ms-[calc(10%)]"
         >
           <div class="group space-y-3 duration-300">
             <div class="text-5xl font-bold">Android</div>
@@ -33,7 +33,7 @@ import Technology from './Technology.vue'
       </div>
       <div class="flex flex-col sm:flex-row">
         <div
-          class="my-10 ms-[calc(10%)] me-[calc(5%)] flex flex-1 flex-col text-white"
+          class="my-10 ms-[calc(5%)] me-[calc(5%)] flex flex-1 flex-col text-white sm:ms-[calc(10%)]"
         >
           <div class="group space-y-3 duration-300">
             <div class="text-5xl font-bold">Frontend</div>
@@ -57,7 +57,7 @@ import Technology from './Technology.vue'
       </div>
       <div class="flex flex-col sm:flex-row">
         <div
-          class="my-10 ms-[calc(10%)] me-[calc(5%)] flex flex-1 flex-col text-white"
+          class="my-10 ms-[calc(5%)] me-[calc(5%)] flex flex-1 flex-col text-white sm:ms-[calc(10%)]"
         >
           <div class="group space-y-3 duration-300">
             <div class="text-5xl font-bold">Backend</div>
@@ -79,7 +79,7 @@ import Technology from './Technology.vue'
       </div>
       <div class="flex flex-col sm:flex-row">
         <div
-          class="my-10 ms-[calc(10%)] me-[calc(5%)] flex flex-1 flex-col text-white"
+          class="my-10 ms-[calc(5%)] me-[calc(5%)] flex flex-1 flex-col text-white sm:ms-[calc(10%)]"
         >
           <div class="group space-y-3 duration-300">
             <div class="text-5xl font-bold">Databases</div>
@@ -99,7 +99,7 @@ import Technology from './Technology.vue'
       </div>
       <div class="flex flex-col sm:flex-row">
         <div
-          class="my-10 ms-[calc(10%)] me-[calc(5%)] flex flex-1 flex-col text-white"
+          class="my-10 ms-[calc(5%)] me-[calc(5%)] flex flex-1 flex-col text-white sm:ms-[calc(10%)]"
         >
           <div class="group space-y-3 duration-300">
             <div class="text-5xl font-bold">Tools</div>

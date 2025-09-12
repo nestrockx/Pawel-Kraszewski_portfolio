@@ -64,34 +64,31 @@ const scrollToTechnologies = () => {
   <nav class="fixed top-1.5 left-15">
     <div
       :class="[
-        'flex flex-col gap-y-4 rounded-2xl bg-zinc-800 py-3 text-center text-white transition-all duration-150 sm:flex-row',
-        !isOpen && '-translate-x-52 opacity-0',
-        isOpen && 'translate-0',
+        'absolute top-0 left-0 flex flex-col gap-y-4 rounded-2xl bg-zinc-800 py-3 text-center text-white transition-all duration-150 sm:flex-row',
+        !isOpen
+          ? 'pointer-events-none -translate-x-52 opacity-0'
+          : 'translate-0 opacity-100',
       ]"
     >
       <button
-        v-if="isOpen"
         @click="scrollToHome"
         :class="['flex-1 cursor-pointer px-6 hover:text-amber-400']"
       >
         Home
       </button>
       <button
-        v-if="isOpen"
         @click="scrollToTechnologies"
         :class="['flex-1 cursor-pointer px-6 hover:text-amber-400']"
       >
         Technologies
       </button>
       <button
-        v-if="isOpen"
         @click="scrollToProjects"
         :class="['flex-1 cursor-pointer px-6 hover:text-amber-400']"
       >
         Projects
       </button>
       <button
-        v-if="isOpen"
         @click="scrollToExperience"
         :class="[
           'flex-1 cursor-pointer px-6 hover:text-amber-400',

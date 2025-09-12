@@ -37,7 +37,7 @@ const onOpen = (idx: number) => {
 <template>
   <div v-motion-fade :duration="700" class="flex items-center justify-center">
     <div
-      class="my-[calc(5%)] ms-[calc(10%)] me-[calc(5%)] flex-1 space-y-8 text-2xl text-white"
+      class="my-[calc(5%)] ms-[calc(5%)] me-[calc(5%)] flex-1 space-y-8 text-2xl text-white sm:ms-[calc(10%)]"
     >
       <h2 class="mb-6 text-3xl font-extrabold text-white">
         More selected projects
