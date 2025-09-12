@@ -124,7 +124,7 @@ const changeDestination = (newDestination: string) => {
           leave-to-class="opacity-0"
         >
           <div :key="destination">
-            <div v-if="destination == 'home'">
+            <div v-show="destination == 'home'">
               <img
                 src="../assets/HomeScreen.jpg"
                 alt="Phone"
@@ -144,7 +144,7 @@ const changeDestination = (newDestination: string) => {
               />
             </div>
 
-            <div v-if="destination == 'signaly'">
+            <div v-show="destination == 'signaly'">
               <img
                 src="../assets/SignalyScreen.png"
                 alt="Phone"
@@ -160,7 +160,7 @@ const changeDestination = (newDestination: string) => {
               />
             </div>
 
-            <div v-if="destination == 'signaly2'">
+            <div v-show="destination == 'signaly2'">
               <img
                 src="../assets/SignalyScreen2.png"
                 alt="Phone"
@@ -176,7 +176,7 @@ const changeDestination = (newDestination: string) => {
               />
             </div>
 
-            <div v-if="destination == 'signaly3'">
+            <div v-show="destination == 'signaly3'">
               <img
                 src="../assets/SignalyScreen3.png"
                 alt="Phone"
@@ -192,7 +192,7 @@ const changeDestination = (newDestination: string) => {
               />
             </div>
 
-            <div v-if="destination == 'katana'">
+            <div v-show="destination == 'katana'">
               <img
                 src="../assets/KatanaScreen.jpg"
                 alt="Phone"
@@ -204,7 +204,7 @@ const changeDestination = (newDestination: string) => {
               />
             </div>
 
-            <div v-if="destination == 'poker1'">
+            <div v-show="destination == 'poker1'">
               <img
                 src="../assets/PokerScreen.jpg"
                 alt="Phone"
@@ -219,7 +219,7 @@ const changeDestination = (newDestination: string) => {
                 class="absolute top-175 left-36 h-6 w-28 cursor-pointer rounded-4xl bg-orange-300/30"
               />
             </div>
-            <div v-if="destination == 'poker2'">
+            <div v-show="destination == 'poker2'">
               <img
                 src="../assets/PokerScreen2.jpg"
                 alt="Phone"
@@ -234,7 +234,7 @@ const changeDestination = (newDestination: string) => {
                 class="absolute top-175 left-36 h-6 w-28 cursor-pointer rounded-4xl bg-orange-300/30"
               />
             </div>
-            <div v-if="destination == 'poker3'">
+            <div v-show="destination == 'poker3'">
               <img
                 src="../assets/PokerScreen3.jpg"
                 alt="Phone"
