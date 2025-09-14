@@ -49,10 +49,11 @@ import Technology from './Technology.vue'
           <Technology name="Typescript" type="typescript" />
           <Technology name="Javascript" type="javascript" />
           <Technology name="React" type="react" />
-          <Technology name="React Native" type="react" />
+          <Technology name="Vite" type="vite" />
           <Technology name="Vue" type="vue" />
           <Technology name="TailwindCSS" type="tailwind" />
-          <Technology name="Vite" type="vite" />
+          <Technology name="React Native" type="react" />
+          <Technology name="Expo" type="expo" />
         </div>
       </div>
       <div class="flex flex-col sm:flex-row">

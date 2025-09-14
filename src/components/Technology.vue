@@ -24,6 +24,7 @@ import GitHubLogo from '../assets/github.svg?url'
 import DockerLogo from '../assets/docker.svg?url'
 import FigmaLogo from '../assets/figma.svg?url'
 import RetrofitLogo from '../assets/api.svg?url'
+import ExpoLogo from '../assets/expo.svg?url'
 
 const logos = {
   react: ReactLogo,
@@ -51,6 +52,7 @@ const logos = {
   docker: DockerLogo,
   figma: FigmaLogo,
   retrofit: RetrofitLogo,
+  expo: ExpoLogo,
 } as const
 
 const props = defineProps<{
