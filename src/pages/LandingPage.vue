@@ -9,13 +9,12 @@ import Footer from '../components/Footer.vue'
 import { onMounted } from 'vue'
 
 onMounted(() => {
-  // Scroll down 200px smoothly, then back up
   setTimeout(() => {
     window.scrollTo({ top: 70, behavior: 'smooth' })
     setTimeout(() => {
       window.scrollTo({ top: 0, behavior: 'smooth' })
-    }, 500) // wait until first scroll finishes
-  }, 800) // delay before starting
+    }, 500)
+  }, 800)
 })
 
 const isOpen = ref(false)
