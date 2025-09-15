@@ -43,7 +43,7 @@ const changeDestination = (newDestination: string) => {
         <a
           href="https://github.com/nestrockx/SignalyChinese-dictionary-android-app"
           target="_blank"
-          class="text-amber-300"
+          class="text-sky-300"
           >Repo link</a
         >
       </div>
@@ -62,7 +62,7 @@ const changeDestination = (newDestination: string) => {
         <a
           href="https://github.com/nestrockx/KatanaFlashlight-shake-phone-android-app"
           target="_blank"
-          class="text-amber-300"
+          class="text-sky-300"
           >Repo link</a
         >
       </div>
@@ -74,7 +74,7 @@ const changeDestination = (newDestination: string) => {
         <p class="text-xl">
           A full-stack application including Android app,
           <a
-            class="text-amber-300 underline"
+            class="text-sky-300 underline"
             href="https://simple-planning-poker.onrender.com/"
             target="_blank"
             >website in React</a
@@ -103,7 +103,7 @@ const changeDestination = (newDestination: string) => {
         <p>- Supports user registration, login, and guest access.</p>
         <a
           href="https://github.com/nestrockx/simple_planning_poker_android"
-          class="text-amber-300"
+          class="text-sky-300"
           target="_blank"
           >Repo link</a
         >
@@ -128,15 +128,15 @@ const changeDestination = (newDestination: string) => {
               />
               <button
                 @click="changeDestination('poker1')"
-                class="absolute top-72 left-14 h-14 w-14 cursor-pointer rounded-2xl bg-orange-300/30"
+                class="absolute top-72 left-14 h-14 w-14 cursor-pointer rounded-2xl bg-blue-300/30"
               />
               <button
                 @click="changeDestination('signaly')"
-                class="absolute top-72 left-43 h-14 w-14 cursor-pointer rounded-2xl bg-orange-300/30"
+                class="absolute top-72 left-43 h-14 w-14 cursor-pointer rounded-2xl bg-blue-300/30"
               />
               <button
                 @click="changeDestination('katana')"
-                class="absolute top-72 left-72 h-14 w-14 cursor-pointer rounded-2xl bg-orange-300/30"
+                class="absolute top-72 left-72 h-14 w-14 cursor-pointer rounded-2xl bg-blue-300/30"
               />
             </div>
 
@@ -148,11 +148,11 @@ const changeDestination = (newDestination: string) => {
               />
               <button
                 @click="changeDestination('signaly2')"
-                class="absolute top-167 left-76 h-10 w-10 cursor-pointer rounded-2xl bg-orange-300/30"
+                class="absolute top-167 left-76 h-10 w-10 cursor-pointer rounded-2xl bg-blue-300/30"
               />
               <button
                 @click="changeDestination('home')"
-                class="absolute top-177 left-36 h-6 w-28 cursor-pointer rounded-4xl bg-orange-300/30"
+                class="absolute top-177 left-36 h-6 w-28 cursor-pointer rounded-4xl bg-blue-300/30"
               />
             </div>
 
@@ -164,11 +164,11 @@ const changeDestination = (newDestination: string) => {
               />
               <button
                 @click="changeDestination('signaly3')"
-                class="absolute top-167 left-45 h-10 w-10 cursor-pointer rounded-2xl bg-orange-300/30"
+                class="absolute top-167 left-45 h-10 w-10 cursor-pointer rounded-2xl bg-blue-300/30"
               />
               <button
                 @click="changeDestination('home')"
-                class="absolute top-177 left-36 h-6 w-28 cursor-pointer rounded-4xl bg-orange-300/30"
+                class="absolute top-177 left-36 h-6 w-28 cursor-pointer rounded-4xl bg-blue-300/30"
               />
             </div>
 
@@ -180,11 +180,11 @@ const changeDestination = (newDestination: string) => {
               />
               <button
                 @click="changeDestination('signaly2')"
-                class="absolute top-167 left-19 h-10 w-10 cursor-pointer rounded-2xl bg-orange-300/30"
+                class="absolute top-167 left-19 h-10 w-10 cursor-pointer rounded-2xl bg-blue-300/30"
               />
               <button
                 @click="changeDestination('home')"
-                class="absolute top-177 left-36 h-6 w-28 cursor-pointer rounded-4xl bg-orange-300/30"
+                class="absolute top-177 left-36 h-6 w-28 cursor-pointer rounded-4xl bg-blue-300/30"
               />
             </div>
 
@@ -196,7 +196,7 @@ const changeDestination = (newDestination: string) => {
               />
               <button
                 @click="changeDestination('home')"
-                class="absolute top-175 left-36 h-6 w-28 cursor-pointer rounded-4xl bg-orange-300/30"
+                class="absolute top-175 left-36 h-6 w-28 cursor-pointer rounded-4xl bg-blue-300/30"
               />
             </div>
 
@@ -208,11 +208,11 @@ const changeDestination = (newDestination: string) => {
               />
               <button
                 @click="changeDestination('poker2')"
-                class="absolute top-132 left-36 h-12 w-28 cursor-pointer rounded-4xl bg-orange-300/30"
+                class="absolute top-132 left-36 h-12 w-28 cursor-pointer rounded-4xl bg-blue-300/30"
               />
               <button
                 @click="changeDestination('home')"
-                class="absolute top-175 left-36 h-6 w-28 cursor-pointer rounded-4xl bg-orange-300/30"
+                class="absolute top-175 left-36 h-6 w-28 cursor-pointer rounded-4xl bg-blue-300/30"
               />
             </div>
             <div v-show="destination == 'poker2'">
@@ -223,11 +223,11 @@ const changeDestination = (newDestination: string) => {
               />
               <button
                 @click="changeDestination('poker3')"
-                class="absolute top-28 left-12 h-10 w-10 cursor-pointer rounded-2xl bg-orange-300/30"
+                class="absolute top-28 left-12 h-10 w-10 cursor-pointer rounded-2xl bg-blue-300/30"
               />
               <button
                 @click="changeDestination('home')"
-                class="absolute top-175 left-36 h-6 w-28 cursor-pointer rounded-4xl bg-orange-300/30"
+                class="absolute top-175 left-36 h-6 w-28 cursor-pointer rounded-4xl bg-blue-300/30"
               />
             </div>
             <div v-show="destination == 'poker3'">
@@ -238,11 +238,11 @@ const changeDestination = (newDestination: string) => {
               />
               <button
                 @click="changeDestination('poker2')"
-                class="absolute top-28 left-12 h-10 w-10 cursor-pointer rounded-2xl bg-orange-300/30"
+                class="absolute top-28 left-12 h-10 w-10 cursor-pointer rounded-2xl bg-blue-300/30"
               />
               <button
                 @click="changeDestination('home')"
-                class="absolute top-175 left-36 h-6 w-28 cursor-pointer rounded-4xl bg-orange-300/30"
+                class="absolute top-175 left-36 h-6 w-28 cursor-pointer rounded-4xl bg-blue-300/30"
               />
             </div>
           </div>

@@ -17,7 +17,7 @@
         v-motion-slide-left
         :duration="450"
         :easing="'ease-in-out'"
-        class="mx-2 py-1 text-5xl font-bold text-amber-500"
+        class="mx-2 py-1 text-5xl font-bold text-sky-500"
       >
         DEVELOPER
       </div>
@@ -27,14 +27,14 @@
         :duration="300"
         class="text-x pt-4 pb-6 break-keep"
       >
-        Hi! I'm <b class="text-amber-200">Paweł Kraszewski</b>. A professional
+        Hi! I'm <b class="text-sky-200">Paweł Kraszewski</b>. A professional
         developer with 3 years of experience in building embedded android,
         mobile and web applications. Including VSCode and IntelliJ Idea plugins.
       </div>
       <a
         href="https://github.com/nestrockx"
         target="_blank"
-        class="transform rounded-lg bg-gradient-to-r from-yellow-600 to-amber-600 px-6 py-3 text-center font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:from-yellow-500 hover:to-amber-500 focus:ring-2 focus:ring-yellow-300 focus:outline-none active:scale-95"
+        class="transform rounded-lg bg-gradient-to-r from-blue-600 to-sky-600 px-6 py-3 text-center font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:from-blue-500 hover:to-sky-500 focus:ring-2 focus:ring-blue-300 focus:outline-none active:scale-95"
       >
         My Github
       </a>

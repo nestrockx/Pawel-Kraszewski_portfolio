@@ -48,7 +48,7 @@ const onOpen = (idx: number) => {
           @click="onOpen(idx)"
           v-for="(item, idx) in items"
           :key="idx"
-          class="group relative flex cursor-pointer items-start gap-4 rounded-2xl bg-gradient-to-r from-amber-700/70 to-amber-600/60 p-4 shadow-lg ring-1 ring-white/6 transition-transform hover:translate-y-[-3px]"
+          class="group relative flex cursor-pointer items-start gap-4 rounded-2xl bg-gradient-to-r from-sky-700/70 to-sky-600/60 p-4 shadow-lg ring-1 ring-white/6 transition-transform hover:translate-y-[-3px]"
         >
           <div
             aria-hidden
@@ -63,11 +63,11 @@ const onOpen = (idx: number) => {
                 {{ item.title }}
               </h3>
               <span
-                class="ml-2 rounded-full bg-white/6 px-2 py-1 text-center text-xs text-amber-200"
+                class="ml-2 rounded-full bg-white/6 px-2 py-1 text-center text-xs text-sky-200"
                 >{{ item.tag }}</span
               >
             </div>
-            <p class="mt-1 text-sm text-amber-300">{{ item.desc }}</p>
+            <p class="mt-1 text-sm text-sky-300">{{ item.desc }}</p>
           </div>
         </li>
       </ul>

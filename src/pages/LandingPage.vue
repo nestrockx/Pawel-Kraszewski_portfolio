@@ -72,26 +72,26 @@ const scrollToTechnologies = () => {
     >
       <button
         @click="scrollToHome"
-        :class="['flex-1 cursor-pointer px-6 hover:text-amber-400']"
+        :class="['flex-1 cursor-pointer px-6 hover:text-sky-400']"
       >
         Home
       </button>
       <button
         @click="scrollToTechnologies"
-        :class="['flex-1 cursor-pointer px-6 hover:text-amber-400']"
+        :class="['flex-1 cursor-pointer px-6 hover:text-sky-400']"
       >
         Technologies
       </button>
       <button
         @click="scrollToProjects"
-        :class="['flex-1 cursor-pointer px-6 hover:text-amber-400']"
+        :class="['flex-1 cursor-pointer px-6 hover:text-sky-400']"
       >
         Projects
       </button>
       <button
         @click="scrollToExperience"
         :class="[
-          'flex-1 cursor-pointer px-6 hover:text-amber-400',
+          'flex-1 cursor-pointer px-6 hover:text-sky-400',
           !isOpen && 'pointer-events-none',
         ]"
       >
@@ -129,7 +129,7 @@ const scrollToTechnologies = () => {
       href="https://www.linkedin.com/in/pawe%C5%82-kraszewski-87b872162/"
       target="_blank"
     >
-      <i class="pi pi-linkedin text-2xl duration-200 hover:text-amber-400"></i>
+      <i class="pi pi-linkedin text-2xl duration-200 hover:text-sky-400"></i>
     </a>
   </div>
 </template>
