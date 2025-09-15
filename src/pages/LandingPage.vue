@@ -9,6 +9,7 @@ import Footer from '../components/Footer.vue'
 import { onMounted } from 'vue'
 
 onMounted(() => {
+  if (window.scrollY > 0) return
   setTimeout(() => {
     window.scrollTo({ top: 70, behavior: 'smooth' })
     setTimeout(() => {
