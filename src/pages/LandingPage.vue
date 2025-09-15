@@ -124,6 +124,14 @@ const scrollToTechnologies = () => {
   >
     <a href="mailto:pawelkraszewski98@gmail.com">pawelkraszewski98@gmail.com</a>
   </div>
+  <div class="fixed top-3 right-3 text-white">
+    <a
+      href="https://www.linkedin.com/in/pawe%C5%82-kraszewski-87b872162/"
+      target="_blank"
+    >
+      <i class="pi pi-linkedin text-2xl duration-200 hover:text-amber-400"></i>
+    </a>
+  </div>
 </template>
 
 <style scoped></style>
