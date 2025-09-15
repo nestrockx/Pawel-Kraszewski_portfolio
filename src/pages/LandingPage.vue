@@ -6,6 +6,17 @@ import TechnologiesComponent from '../components/Technologies.vue'
 import OtherProjects from '../components/OtherProjects.vue'
 import Experience from '../components/Experience.vue'
 import Footer from '../components/Footer.vue'
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  // Scroll down 200px smoothly, then back up
+  setTimeout(() => {
+    window.scrollTo({ top: 70, behavior: 'smooth' })
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    }, 500) // wait until first scroll finishes
+  }, 800) // delay before starting
+})
 
 const isOpen = ref(false)
 
@@ -132,6 +143,9 @@ const scrollToTechnologies = () => {
       <i class="pi pi-linkedin text-2xl duration-200 hover:text-sky-400"></i>
     </a>
   </div>
+  <!-- <div class="absolute bottom-3 left-3 text-white">
+    <i class="pi pi-arrow-down"></i>
+  </div> -->
 </template>
 
 <style scoped></style>
