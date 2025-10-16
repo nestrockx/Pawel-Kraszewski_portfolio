@@ -25,6 +25,7 @@ import DockerLogo from '../assets/docker.svg?url'
 import FigmaLogo from '../assets/figma.svg?url'
 import RetrofitLogo from '../assets/api.svg?url'
 import ExpoLogo from '../assets/expo.svg?url'
+import KoinLogo from '../assets/koin.png?url'
 
 const logos = {
   react: ReactLogo,
@@ -53,6 +54,7 @@ const logos = {
   figma: FigmaLogo,
   retrofit: RetrofitLogo,
   expo: ExpoLogo,
+  koin: KoinLogo,
 } as const
 
 const props = defineProps<{
@@ -65,7 +67,7 @@ const source = logos[props.type]
 
 <template>
   <div class="flex items-center gap-2">
-    <img :src="source" alt="React Logo" class="h-10 w-10" />
+    <img :src="source" alt="{{ name }}" class="h-10 w-10" />
     <div class="text-2xl">{{ name }}</div>
   </div>
 </template>

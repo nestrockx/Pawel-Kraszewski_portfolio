@@ -25,6 +25,7 @@ import Technology from './Technology.vue'
           <Technology name="Jetpack Compose" type="compose" />
           <Technology name="Coroutines" type="kotlin" />
           <Technology name="Dagger2/Hilt" type="dagger" />
+          <Technology name="Koin" type="koin" />
           <Technology name="Room" type="room" />
           <Technology name="Retrofit" type="retrofit" />
           <Technology name="MVVM" type="mvvm" />

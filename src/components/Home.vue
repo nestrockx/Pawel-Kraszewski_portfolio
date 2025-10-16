@@ -11,7 +11,7 @@
         :easing="'ease-in-out'"
         class="py-1 text-5xl font-bold"
       >
-        ANDROID & WEB
+        MOBILE & FRONTEND
       </div>
       <div
         v-motion-slide-left
