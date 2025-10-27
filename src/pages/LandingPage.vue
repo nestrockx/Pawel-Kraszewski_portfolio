@@ -9,13 +9,14 @@ import Footer from '../components/Footer.vue'
 import { onMounted } from 'vue'
 
 onMounted(() => {
-  if (window.scrollY > 0) return
+  if (localStorage.getItem('visited')) return
   setTimeout(() => {
     window.scrollTo({ top: 70, behavior: 'smooth' })
     setTimeout(() => {
       window.scrollTo({ top: 0, behavior: 'smooth' })
     }, 500)
   }, 800)
+  localStorage.setItem('visited', 'true')
 })
 
 const isOpen = ref(false)
@@ -83,26 +84,26 @@ const scrollToTechnologies = () => {
     >
       <button
         @click="scrollToHome"
-        :class="['flex-1 cursor-pointer px-6 hover:text-sky-400']"
+        :class="['flex-1 cursor-pointer px-6 hover:text-amber-400']"
       >
         Home
       </button>
       <button
         @click="scrollToTechnologies"
-        :class="['flex-1 cursor-pointer px-6 hover:text-sky-400']"
+        :class="['flex-1 cursor-pointer px-6 hover:text-amber-400']"
       >
         Technologies
       </button>
       <button
         @click="scrollToProjects"
-        :class="['flex-1 cursor-pointer px-6 hover:text-sky-400']"
+        :class="['flex-1 cursor-pointer px-6 hover:text-amber-400']"
       >
         Projects
       </button>
       <button
         @click="scrollToExperience"
         :class="[
-          'flex-1 cursor-pointer px-6 hover:text-sky-400',
+          'flex-1 cursor-pointer px-6 hover:text-amber-400',
           !isOpen && 'pointer-events-none',
         ]"
       >
@@ -140,7 +141,7 @@ const scrollToTechnologies = () => {
       href="https://www.linkedin.com/in/pawe%C5%82-kraszewski-87b872162/"
       target="_blank"
     >
-      <i class="pi pi-linkedin text-2xl duration-200 hover:text-sky-400"></i>
+      <i class="pi pi-linkedin text-2xl duration-200 hover:text-amber-400"></i>
     </a>
   </div>
   <!-- <div class="absolute bottom-3 left-3 text-white">

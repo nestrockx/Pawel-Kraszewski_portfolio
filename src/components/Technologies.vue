@@ -3,7 +3,7 @@ import Technology from './Technology.vue'
 </script>
 
 <template>
-  <div v-motion-fade :duration="700" class="flex min-h-screen">
+  <div class="flex min-h-screen">
     <div class="flex w-full flex-col">
       <div class="flex flex-col sm:flex-row">
         <div
@@ -12,7 +12,7 @@ import Technology from './Technology.vue'
           <div class="group space-y-3 duration-300">
             <div class="text-5xl font-bold">Android</div>
             <div
-              class="block h-[0.1rem] w-16 bg-white transition-all group-hover:w-24 group-hover:bg-sky-300"
+              class="block h-[0.1rem] w-16 bg-white transition-all group-hover:w-24 group-hover:bg-amber-300"
             />
           </div>
         </div>
@@ -39,7 +39,7 @@ import Technology from './Technology.vue'
           <div class="group space-y-3 duration-300">
             <div class="text-5xl font-bold">Frontend</div>
             <div
-              class="block h-[0.1rem] w-16 bg-white transition-all group-hover:w-24 group-hover:bg-sky-300"
+              class="block h-[0.1rem] w-16 bg-white transition-all group-hover:w-24 group-hover:bg-amber-300"
             />
           </div>
         </div>
@@ -64,7 +64,7 @@ import Technology from './Technology.vue'
           <div class="group space-y-3 duration-300">
             <div class="text-5xl font-bold">Backend</div>
             <div
-              class="block h-[0.1rem] w-16 bg-white transition-all group-hover:w-24 group-hover:bg-sky-300"
+              class="block h-[0.1rem] w-16 bg-white transition-all group-hover:w-24 group-hover:bg-amber-300"
             />
           </div>
         </div>
@@ -86,7 +86,7 @@ import Technology from './Technology.vue'
           <div class="group space-y-3 duration-300">
             <div class="text-5xl font-bold">Databases</div>
             <div
-              class="block h-[0.1rem] w-16 bg-white transition-all group-hover:w-24 group-hover:bg-sky-300"
+              class="block h-[0.1rem] w-16 bg-white transition-all group-hover:w-24 group-hover:bg-amber-300"
             />
           </div>
         </div>
@@ -106,7 +106,7 @@ import Technology from './Technology.vue'
           <div class="group space-y-3 duration-300">
             <div class="text-5xl font-bold">Tools</div>
             <div
-              class="block h-[0.1rem] w-16 bg-white transition-all group-hover:w-24 group-hover:bg-sky-300"
+              class="block h-[0.1rem] w-16 bg-white transition-all group-hover:w-24 group-hover:bg-amber-300"
             />
           </div>
         </div>
