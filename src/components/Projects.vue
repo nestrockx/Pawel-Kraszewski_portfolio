@@ -43,7 +43,7 @@ const changeDestination = (newDestination: string) => {
       </div>
 
       <h2 v-show="destination.match('katana.*')" class="py-10 text-4xl">
-        Katana Flashlight
+        Shake Flashlight Katana
       </h2>
       <div v-show="destination.match('katana.*')">
         <p class="text-xl">
