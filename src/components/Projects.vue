@@ -40,12 +40,6 @@ const changeDestination = (newDestination: string) => {
           follows the order and direction of the strokes.
         </p>
         <p>Built-in flash cards system.</p>
-        <a
-          href="https://github.com/nestrockx/SignalyChinese-dictionary-android-app"
-          target="_blank"
-          class="text-amber-300"
-          >Repo link</a
-        >
       </div>
 
       <h2 v-show="destination.match('katana.*')" class="py-10 text-4xl">
