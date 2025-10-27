@@ -19,7 +19,7 @@ onMounted(() => {
   localStorage.setItem('visited', 'true')
 })
 
-const isOpen = ref(false)
+const isOpen = ref(true)
 
 const toggleMenu = () => {
   isOpen.value = !isOpen.value
